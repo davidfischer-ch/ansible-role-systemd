@@ -40,3 +40,5 @@ MaxLevelKMsg={{ systemd_journal_daemon_levels[systemd_journal_daemon_max_level_k
 MaxLevelConsole={{ systemd_journal_daemon_levels[systemd_journal_daemon_max_level_console] }}
 MaxLevelWall={{ systemd_journal_daemon_levels[systemd_journal_daemon_max_level_wall] }}
 LineMax={{ systemd_journal_daemon_line_max }}
+ReadKMsg={{ systemd_journal_daemon_read_msg|bool|ternary('yes', 'no') }}
+Audit={{ systemd_journal_daemon_audit|bool|ternary('yes', 'no') }}
