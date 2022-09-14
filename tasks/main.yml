@@ -6,7 +6,7 @@
     dest: /etc/systemd/journald.conf
     owner: root
     group: root
-    mode: 0644
+    mode: '644'
   become: yes
   notify: restart systemd journal daemon
   tags: [systemd, config]
