@@ -27,7 +27,7 @@ systemd_journal_daemon_max_level_store: debug
 systemd_journal_daemon_max_level_syslog: debug
 systemd_journal_daemon_max_level_kmsg: notice
 systemd_journal_daemon_max_level_console: info
-systemd_journal_daemon_max_level_wall: emerg
+systemd_journal_daemon_max_level_wall: emergency
 systemd_journal_daemon_line_max: 48K
 systemd_journal_daemon_read_msg: yes
 systemd_journal_daemon_audit: no
